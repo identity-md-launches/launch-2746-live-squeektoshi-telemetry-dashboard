@@ -1,0 +1,13 @@
+# Explicit path budget: each generated path below contributes 0 submitted bytes.
+# Source, public assets, lockfile, documentation and dist/ remain included.
+**/node_modules/
+**/.vite/
+**/.cache/
+**/.npm/
+**/.pnpm-store/
+**/.yarn/cache/
+**/playwright-report/
+**/test-results/
+**/coverage/
+**/*.tsbuildinfo
+/test/scratch/
